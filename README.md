@@ -1,32 +1,27 @@
 ﻿# Directory Orgraniser
 
-A quick CLI tool to organise files in a directory into subfolders.
+![Status](https://img.shields.io/badge/status-active-22c55e?style=for-the-badge)
+![License](https://img.shields.io/badge/license-open--source-0ea5e9?style=for-the-badge)
 
-## What it does
+> Fast file organization tooling for messy folders.
 
-- Scans a target directory
-- Groups files by extension or broad type
-- Moves files into generated folders (for example `images`, `documents`, `code`, `archives`, `other`)
-- Supports dry-run mode so you can preview changes first
+## Highlights
 
-## Usage
+- File sorting by type/extension
+- Dry-run support
+- Simple command-line usage
+
+## Quick Start
 
 ```bash
-python organiser.py --path "C:\path\to\target" --dry-run
-python organiser.py --path "C:\path\to\target"
+git clone <repo-url>
+cd directory-orgraniser
 ```
 
-## Options
+## About
 
-- `--path`: directory to organise (default: current directory)
-- `--mode`: `type` or `extension` (default: `type`)
-- `--dry-run`: print planned moves without changing files
-- `--include-hidden`: include hidden files
+This repository is part of my developer journey and is built to be practical, clean, and easy to use.
 
-## Notes
-
-- The script ignores directories and only moves files.
-- It never moves the script itself.
 ## Open Source
-This project is open source and free to use.
 
+This project is open source and free to use.
