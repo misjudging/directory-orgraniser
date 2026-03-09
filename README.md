@@ -1,4 +1,4 @@
-# Directory Orgraniser
+﻿# Directory Orgraniser
 
 A quick CLI tool to organise files in a directory into subfolders.
 
@@ -27,3 +27,6 @@ python organiser.py --path "C:\path\to\target"
 
 - The script ignores directories and only moves files.
 - It never moves the script itself.
+## Open Source
+This project is open source and free to use.
+
